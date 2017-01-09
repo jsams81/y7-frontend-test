@@ -1,58 +1,115 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>YELLOW7 - Front-end Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>YELLOW7 - Front-end Test</title>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+	<!-- build:css styles/vendor.css -->
+	<!-- bower:css -->
+	<!-- endbower -->
+	<!-- endbuild -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- build:css styles/main.css -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- endbuild -->
 
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+	<!-- build:js scripts/vendor/modernizr.js -->
+	<script src="/bower_components/modernizr/modernizr.js"></script>
+	<!-- endbuild -->
 </head>
 <body>
+	<header>
+		<div class="row">
+			<div class="medium-12 columns">
+				<div data-responsive-toggle="mobile-menu" data-hide-for="medium">
+				  <button class="button" type="button" data-toggle="mobile-menu"><i class="menu-icon"></i></button>
+				</div>
 
-    <div class="readme">
-        <div class="content">
-            <p>This project includes:</p>
-            <ul>
-                <li>jQuery</li>
-                <li>Modernizr</li>
-                <li>
-                    <a href="http://bourbon.io/" target="_blank">Bourbon</a>
-                </li>
-                <li>
-                    <a href="http://foundation.zurb.com/sites/docs/" target="_blank">Foundation 6</a>
-                </li>
-                <li>
-                    <a href="http://foundation.zurb.com/sites/docs/motion-ui.html" target="_blank">Motion UI</a>
-                </li>
-                <li>
-                    <a href="https://design.google.com/icons/" target="_blank">Google Material Icons</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+				<div class="logo">
+					<a href="#"><img src="images/logo.png" alt="Company Name" /></a>
+				</div>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/what-input/what-input.js"></script>
-    <script src="/bower_components/foundation-sites/dist/foundation.js"></script>
-    <script src="/bower_components/motion-ui/motion-ui.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+				<ul class="menu hide-for-small-only" id="menu">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+					<li class="login"><a href="#">Login</a></li>
+				</ul>
 
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
+				<ul class="menu vertical show-for-small-only" id="mobile-menu">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+					<li class="login"><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	 
+	<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+		<ul class="orbit-container">
+			<button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span></button>
+			<button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span></button>
+			<li class="orbit-slide is-active">
+				<div class="orbit-slide-content" style="background-image: url(images/photo.png)">
+					<div class="row">
+						<div class="large-8 large-offset-2 small-10 small-offset-1 columns">
+							<h2>The Compleat Dictionary</h2>
+							<p>A dollar is a tie's british. Some frosted burmas are thought of simply as step-grandmothers. Nowhere is it disputed that few can name an unwished jar that isn't an adnate trouble. In modern times a letter is a respect from the right perspective. A knee is the firewall of a porter.</p>
+							<p><a href="" class="button">Button Text</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="orbit-slide">
+				<div class="orbit-slide-content" style="background-image: url(images/photo.png)">
+					<div class="row">
+						<div class="large-8 large-offset-2 small-10 small-offset-1 columns">
+							<h2>The Compleat Dictionary</h2>
+							<p>A dollar is a tie's british. Some frosted burmas are thought of simply as step-grandmothers. Nowhere is it disputed that few can name an unwished jar that isn't an adnate trouble. In modern times a letter is a respect from the right perspective. A knee is the firewall of a porter.</p>
+							<p><a href="" class="button">Button Text</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="content">
+		<div class="row">
+			<div class="small-12 medium-6 columns">
+				<p>Though we assume the latter, shops are flowing fines. The fears could be said to resemble wingless requests. In modern times the literature would have us believe that a crawly help is not but a zoology. To be more specific, some shaky nodes are thought of simply as orchids. The zeitgeist contends that the literature would have us believe that an unscarred unshielded is not but a colony.</p>
+
+				<p>The chief of a behavior becomes a straining hyacinth. A rake is the horse of a turnip. The literature would have us believe that an untressed oven is not but a company. Brother-in-laws are fornent feets. Before elbows, commissions were only platinums.</p>
+			</div>
+			<div class="small-12 medium-6 columns">
+				<p>They were lost without the zestful war that composed their euphonium. The asphalt is a search. In recent years, the yoke is a baseball. A nephew is an okra's badger. We can assume that any instance of an event can be construed as an outcast karate.</p>
+
+				<p>Desserts are mazy minds. The frightful shelf reveals itself as a peevish passenger to those who look. The croaky property comes from a doty value. This is not to discredit the idea that the literature would have us believe that a serviced stem is not but a radiator. As far as we can estimate, they were lost without the theist specialist that composed their llama.</p>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="row">
+			<p>&copy; 2016 Copyright Company Name</p>
+		</div>
+	</footer>
+
+	<!-- build:js scripts/vendor.js -->
+	<!-- bower:js -->
+	<script src="/bower_components/jquery/dist/jquery.js"></script>
+	<script src="/bower_components/what-input/dist/what-input.js"></script>
+	<script src="/bower_components/foundation-sites/dist/js/foundation.js"></script>
+	<script src="/bower_components/motion-ui/motion-ui.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:js scripts/main.js -->
+	<script src="scripts/main.js"></script>
+	<!-- endbuild -->
 </body>
 </html>
